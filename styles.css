@@ -1,0 +1,270 @@
+/*   header  */
+.header_menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+  
+}
+
+.header_menu_btn {
+  margin: 0 32px;
+  display: flex;
+}
+
+.header_memu_btn_click {
+  border-style: none;
+  color: whitesmoke;
+  padding: 16px 48px;
+  border-radius: 47px;
+  background: #86A7D5;
+  box-shadow: inset -5px 5px 10px #7591b9, inset 5px -5px 10px #97bdf1;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header_memu_btn_click:hover {
+  cursor: pointer;
+  border-radius: 47px;
+  background: linear-gradient(225deg, #7996c0, #8fb3e4);
+  box-shadow:  -5px 5px 10px #7591b9, 5px -5px 10px #97bdf1;
+}
+
+.exception {
+  padding: 16px 52px;
+}
+
+
+/*  全体スタイリング  */
+body {
+  background: #86A7D5;
+  color: whitesmoke;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.cloud h1 {
+  text-align: center;
+  font-size: 48px;
+  padding-top: 68px;
+  margin: 0;
+  color: #fff;
+}
+
+.cloud_img {
+  display: flex;
+  justify-content: center;
+}
+
+.botton {
+  display: inline-block;
+  padding: 16px 48px;
+  margin: 0 32px;
+  border-radius: 47px;
+  background: #86A7D5;
+  box-shadow: inset -5px 5px 10px #7591b9, inset 5px -5px 10px #97bdf1;
+}
+
+.botton:hover {
+  cursor: pointer;
+  border-radius: 47px;
+  background: linear-gradient(225deg, #7996c0, #8fb3e4);
+  box-shadow:  -5px 5px 10px #7591b9, 5px -5px 10px #97bdf1;
+}
+
+.home_botton {
+  display: flex;
+  justify-content: center;
+}
+
+
+.profile h1 {
+  font-size: 32px;
+  padding-top: 1.5em;
+  margin: 0;
+  color: #fff;
+}
+
+.profile_box {
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  margin-top: 10%;
+}
+
+.container {
+  height: 50%;
+}
+
+/*  botton  */
+.btn_profile {
+  border-style: none;
+  color: white;
+  padding: 16px 48px;
+  margin-top: 8px;
+  border-radius: 55px;
+  background: #86A7D5;
+  box-shadow: inset -5px 5px 10px #7591b9, inset 5px -5px 10px #97bdf1; 
+}
+
+.btn_profile:hover {
+  cursor: pointer;
+  padding: 16px 50px;
+  border-radius: 78px;
+  background: linear-gradient(225deg, #7996c0, #8fb3e4);
+  box-shadow:  -5px 5px 10px #7591b9, 5px -5px 10px #97bdf1;
+}
+
+
+/* music  */
+
+.music {
+  margin-top: 20%;
+}
+
+.img_music {
+  border-radius: 47px;
+  background: linear-gradient(225deg, #8fb3e4, #7996c0);
+  box-shadow:  -5px 5px 10px #7591b9, 5px -5px 10px #97bdf1;
+}
+
+
+.music h1 {
+  text-align: center;
+  font-size: 48px;
+  margin: 0;
+}
+
+.music > p {
+  text-align: center;
+  margin: 0;
+}
+
+.music_cover_photo {
+  display: flex;
+  justify-content: center;
+}
+
+.music_box {
+  margin-left: 48px;
+}
+
+.music_box p {
+  text-align: center;
+  margin: 0;
+}
+
+.music_icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 20px;
+  margin: 6px;
+  color: white;
+  background: linear-gradient(225deg, #8fb3e4, #7996c0);
+  box-shadow:  -5px 5px 10px #7591b9, 5px -5px 10px #97bdf1;
+  border-radius: 10px;
+}
+
+.icon:hover {
+  border-radius: 8px;
+  background: #86A7D5;
+  box-shadow: inset -5px 5px 10px #7591b9, inset 5px -5px 10px #97bdf1; 
+}
+
+.music_container {
+  display: flex;
+  justify-content: center;
+  margin: 48px 0; 
+
+}
+
+.btn_music {
+  color: white;
+  padding: 16px 48px;
+  border-radius: 47px;
+  background: #86A7D5;
+  box-shadow: inset -5px 5px 10px #7591b9, inset 5px -5px 10px #97bdf1;
+  width: 100px;
+  margin: 8px auto;
+}
+
+.btn_music > a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content :center;
+}
+
+.btn_music:hover {
+  cursor: pointer;
+  border-radius: 47px;
+  background: linear-gradient(225deg, #7996c0, #8fb3e4);
+  box-shadow:  -5px 5px 10px #7591b9, 5px -5px 10px #97bdf1;
+}
+
+/* artist */
+.artist {
+  margin-top: 20%;
+}
+
+.artist h1 {
+  text-align: center;
+  font-size: 32px;
+  margin: 0;
+}
+
+.artist_box {
+  margin: 48px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.artist_img {
+  margin-right: 32px;
+}
+
+/* Artist bottom */
+.btn_artist  {
+  padding: 16px 48px;
+  border-radius: 47px;
+  background: #86A7D5;
+  box-shadow: inset -5px 5px 10px #7591b9, inset 5px -5px 10px #97bdf1;
+  width: 100px;
+  margin: 8px auto;
+}
+
+.btn_artist:hover {
+  cursor: pointer;
+  border-radius: 47px;
+  background: linear-gradient(225deg, #7996c0, #8fb3e4);
+  box-shadow:  -5px 5px 10px #7591b9, 5px -5px 10px #97bdf1;
+}
+
+.btn_artist > a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content :center;
+}
+
+
+/*   footer   */
+.footer {
+  margin-top: 72px;
+  background: #10455b;
+} 
+
+
+.footer p  {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  padding: 48px 0;
+}
+
+
+
+
+
+

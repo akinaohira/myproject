@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="favicon" href="akina_img.png">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro|Yantramanav:400,500,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1e98682ea7.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="rellax.min.js"></script>
+  <script src="init.js"></script>
+  <script src="script.js"></script>
+  <title>My cloud</title>
+</head>
+<body>
+  <header>
+    <!-- トップナビメニュー -->
+    <navi class="header_menu">
+      <form class="header_menu_btn"  action="music.php" method="music">
+        <input class="header_memu_btn_click exception" type="submit" value="MUSIC">
+      </form>
+      <form class="header_menu_btn"  action="akina_ohira.php" method="post" name="akina">
+        <input class="header_memu_btn_click exception" type="submit" value="ABOUT">
+      </form>
+      <form class="header_menu_btn" action="contact.php" method="contact">
+        <input  class="header_memu_btn_click" type="submit" value="CONTACT">
+      </form>
+    </navi>
+  </header>
+
+  <section class="cloud">
+    <h1>CLOUD</h1>
+    <div class="cloud_img">
+      <img src="cloud.png">
+    </div>
+  </section>
+  <navi class="home_botton">
+    <div class="botton">HOME</div>
+    <div class="botton">DETAIL</div>
+  </navi>
+
+
+  <section class="profile">
+    <div class="profile_box">
+      <div class="container">
+        <h1>ABOUT akina</h1>
+        <p>My name is Akina Ohira.I am from Tokyo , Japan.</p>
+        <p>Learnig frontned programming and web desing. </p>
+        <p>Love deep house and melodical house music.Sometime DJ.</p>
+        <form action="akina_ohira.php" method="post" name="akina">
+          <input class="btn_profile" type="submit" value="MORE">
+        </form>
+      </div>
+      <div>
+        <img  class="img_akina" src="akina_img.png" >
+      </div>
+    </div>
+  </section>
+
+  <section class="music">
+    <h1>MUSIC</h1>
+    <p>Here is my favorit Music.</p>
+    <div class="music_container">
+      <div class="music_box">
+        <p>A WHITE SHADOW</p>
+        <p>Viken Arman</p>
+        <div class="music_box_img">
+          <div class="music_icon">
+            <a href="https://soundcloud.com/alldayidream/viken-arman-a-white-shadow"><i class="fab fa-soundcloud icon"></i></a>
+            <a href="https://www.beatport.com/track/a-white-shadow-original-mix/8541790"><i class="fas fa-headphones icon"></i></a>
+          </div>
+          <div class="music_cover_photo">
+            <img  class="img_music" src="white_shadow.png" alt="white shadowのイメージ画像" width="250px" height="250px">
+          </div>
+        </div>
+      </div>
+      <div class="music_box">
+        <p>EAST EXPEDITION</p>
+        <p>KAGO DO, DOTT</p>
+        <div class="music_icon">
+          <a href="https://soundcloud.com/otakerecords/kago-do-dott-east-expedition-1"><i class="fab fa-soundcloud icon"></i></a>
+          <a href="https://www.beatport.com/track/east-expedition-original-mix/10803005"><i class="fas fa-headphones icon"></i></a>
+        </div>
+        <div class="music_cover_photo">
+          <img class="img_music" src="East_expedition_Origina.png" width="250px" height="250px">
+        </div>
+      </div>
+    </div>
+    <div class="music_container">
+      <div class="music_box">
+        <p>WILD GROWTH ORIGINAL MIX</p>
+        <p>Birds ov Paradise</p>
+        <div class="music_icon">
+          <a href="https://soundcloud.com/birdsovparadise-music/wild-growth-original-mix"><i class="fab fa-soundcloud icon"></i></a>
+          <a href="https://www.beatport.com/track/wild-growth-original-mix/11216914"><i class="fas fa-headphones icon"></i></a>
+        </div>
+        <div class="music_cover_photo">
+          <img class="img_music" src="Wild Growth · Birds ov Paradise.png" width="250px" height="250px">
+        </div>
+      </div>
+  
+      <div class="music_box">
+        <p>IF YOU LEAVE TONIGHT FEAT. LAZARUSMAN</p>
+        <p>Cosmic Cowboys, Lazarusman</p>
+        <div class="music_icon">
+          <a href="https://soundcloud.com/birdsovparadise-music/wild-growth-original-mix"><i class="fab fa-soundcloud icon"></i></a>
+          <a href="https://www.beatport.com/track/if-you-leave-tonight-feat-lazarusman-original-mix/4908241"><i class="fas fa-headphones icon"></i></a>
+        </div>
+        <div class="music_cover_photo">
+          <img class="img_music" src="if you leave tonight.png" width="250px" height="250px">
+        </div>
+      </div>
+    </div>
+    <div class="btn_music">
+      <a  href="music.php">MORE</a>
+    </div>
+  </section>
+  <section class="artist">
+    <h1>My favorit Artist</h1>
+    <div class="artist_box">
+      <div class="artist_img">
+        <img  class="atsih_img"src="atish.png" width="200px" height="200px" alt="atishのイメージ画像">
+      </div>
+      <div>
+        <h2>Atish</h2>
+        <p>the melodical house</p>
+        <p>Based in New York, Atish has cultivated a devoted following around the world.<br> He’s a natural performer who engages crowds with charm and a smile.</p>
+        <div>
+          <a href="https://www.facebook.com/pg/atishmusic/about/?ref=page_internal" target="_blank"><i class="fab fa-facebook-f icon"></i></a>
+          <a href="https://www.beatport.com/artist/atish/604347" target="_blank"><i class="fas fa-headphones icon"></i></a>
+          <a href="https://soundcloud.com/atish" target="_blank"><i class="fab fa-soundcloud icon"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="artist_box">
+      <div class="artist_img">
+        <img src="qrion.png" width="200px" height="200px" alt="qrionのイメージ画像">
+      </div>
+      <div>
+        <h2>Qrion</h2>
+        <p>melodical house&Techno</p>
+        <p>Born and raised in the snowy city of Sapporo.<br>Qrion began making her own sounds in high school as a hobby by using her phone.</p>
+        <div>
+          <a href="https://www.beatport.com/artist/qrion/498224" target="_blank"><i class="fas fa-headphones icon"></i></a>
+          <a href="https://soundcloud.com/qrionqrionqrion" target="_blank"><i class="fab fa-soundcloud icon"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="btn_artist">
+      <a  href="music.php">MORE</a>
+    </div>
+  </section>
+
+</section>
+  <!-- パララックスのサンプル -->
+  <!-- <div class="sample_1">
+    <div class="sample">
+      <p class="title rellax" data-rellax-speed="3">sample</p>
+      <p class="title_2 rellax" data-rellax-speed="-3">sample</p>
+    </div>
+  </div> -->
+
+  <footer>
+    <div class="footer">
+      <p>&copy; 2020 AKINA OHIRA <i class="fas fa-cloud-moon"></i></p>
+    </div>
+  </footer>
+  
+</body>
+</html>
